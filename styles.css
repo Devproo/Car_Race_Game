@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.game_aria {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  background-color: #444;
+}
+
+.car {
+  position: absolute;
+  bottom: 20px;
+  left: 135px;
+  width: 30px;
+  height: 60px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.obstacle {
+  position: absolute;
+  width: 30px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: yellow;
+}
